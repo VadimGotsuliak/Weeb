@@ -6,3 +6,21 @@ body {
   background-color: #0f172a;
   color: #fff;
 }
+
+/*обмежуючий контейнер8*/
+[class*="__container"] {
+  max-inline-size: 1310px; /* 1280px + 15px +15px*/
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  block-size: 100%;
+  overflow: clip;
+}
+
+.wrapper > .page {
+  flex-grow: 1;
+}
