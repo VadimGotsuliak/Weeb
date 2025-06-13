@@ -1,0 +1,23 @@
+/*Button*/
+
+.button {
+  border: 2px;
+  border-radius: 8px;
+  padding-block: 16px;
+  padding-inline: 40px;
+  text-align: center;
+  background: #7c3aed;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.button--min {
+  padding-block: 12px;
+  padding-inline: 28px;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
