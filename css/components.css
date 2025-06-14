@@ -42,8 +42,7 @@ button:hover {
 .button--white-border {
   background-color: transparent;
   border: 2px solid #ffffff;
-  padding-block: 16px;
-  padding-inline: 31px;
+
   transition: 0.3s;
 }
 .button--white-border:hover {

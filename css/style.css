@@ -8,7 +8,7 @@ body {
   color: #fff;
 }
 
-/*обмежуючий контейнер8*/
+/*обмежуючий контейнер*/
 [class*="__container"] {
   max-inline-size: 1310px; /* 1280px + 15px +15px*/
   margin-inline: auto;
@@ -24,4 +24,58 @@ body {
 
 .wrapper > .page {
   flex-grow: 1;
+}
+/*****************************************/
+/*HEADER*/
+/*****************************************/
+.header {
+}
+.header__container {
+}
+.header__body {
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07),
+    0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 24px;
+  display: grid;
+  column-gap: 38px;
+  row-gap: 5px;
+  align-items: center;
+  grid-template-columns: auto 1fr auto;
+}
+.header__link-logo {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 110%;
+}
+.header__menu {
+}
+.menu {
+}
+.menu__body {
+}
+.menu__list {
+  display: flex;
+  gap: 16px;
+}
+.menu__item {
+}
+.menu__link {
+  /* Button/M */
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.header__actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.actions-header {
+}
+.actions-header__button {
 }
